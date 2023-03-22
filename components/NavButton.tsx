@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
 
 interface Props {
-    title: string;
-    isActive?: boolean
+  title: string;
+  isActive?: boolean;
+  onClick?: () => void;
 }
 
-function NavButton({ title, isActive }: Props) {
+function NavButton({ title, isActive, onClick }: Props) {
   return (
-    <button className={`${isActive && "bg-[#036759]"} hover:bg-[#036759] text-white py-2 px-4 rounded font-bold`} >
-        { title }
+    <button
+      onClick={onClick}
+      className={`${
+        isActive && "bg-[#036759]"
+      } hover:bg-[#036759] text-white py-2 px-4 rounded font-bold`}
+    >
+      {title}
     </button>
-  )
+  );
 }
 
-export default NavButton
+export default NavButton;
