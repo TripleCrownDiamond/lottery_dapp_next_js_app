@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+# Lottery Draw DApp with NEXT.JS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Welcome to the **Lottery Draw DApp** repository! 🚀
 
-## Deploy your own
+## Description
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The **Lottery Draw DApp** comes with features such as login and logout using MetaMask. It has an admin control assigned, allowing the admin to draw winners, withdraw commissions, restart draws, and refund the charges for bought lottery tickets. The Solidity smart contract has been deployed using Thirdweb on the Polygon Blockchain with MATIC Network. TypeScript has been used for error-free, robust code. The website is fully responsive and utilizes Tailwind CSS.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Features
 
-## How to use
+- User authentication with MetaMask
+- Admin control for drawing winners, managing commissions, and more
+- Responsive design using Tailwind CSS
+- Solidity smart contract deployed on Polygon
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Getting Started
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. **Clone the Repository:**
+   - Run `git clone https://github.com/TripleCrownDiamond/lottery_dapp_next_js_app.git` to clone this repository to your local machine.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+2. **Install Dependencies:**
+   - Navigate to the project directory and run `npm install` to install the required dependencies.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+3. **Environment Variables:**
+   - Set the environment variable `NEXT_PUBLIC_LOTTERY_CONTRACT_ADDRESS` in your `.env` file.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+4. **Run Locally:**
+   - Run `npm run dev` to start the development server.
+   - Access the application in your browser at `http://localhost:3000`.
+
+## Tech Stack
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **MetaMask**: A browser extension for Ethereum wallet management.
+- **Solidity**: The programming language for Ethereum smart contracts.
+- **Thirdweb**: A platform for deploying smart contracts on Polygon.
+
+## Live Demo
+
+Check out the live demo of the **Lottery Draw DApp**: Demo
+
+## Contact
+
+Feel free to reach out if you have any questions or feedback!
+
+---
